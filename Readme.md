@@ -42,7 +42,7 @@ To reproduce the results described in our paper ***Ensemble BiLSTM-CRF vs CamemB
 
 And replace *model_name* with the desired model or ensemble found in the paper:  **w2vec**, **fasttext**, **elmo**, **bert**, **judicial_camembert**, **e0** (BiLSTM-CRF models with static embeddings: fasttext and w2vec), **e1** (BiLSTM-CRF models with contextualized embeddings: elmo and bert) or **e2** (= e0 + e1).
 To test the judicial camembert and **e3** (= e2 + judicial camembert) you need to download the 
-[Judicial camembert](https://drive.google.com/drive/folders/1gDTHgEbSjcCmaZW17Qm-D6lHnycDsFLN?usp=sharing), put the *camembert* folder in the same directory with *nerRunner.py* file, and specify **judicial_camembert** or **e3** respictively as *model_name*.
+[Judicial camembert], put the *camembert* folder in the same directory with *nerRunner.py* file, and specify **judicial_camembert** or **e3** respictively as *model_name*.
 
 [//]: # (However, Jud. CamemBERT still till now in private stage so you can neither rerun it nor the **e3**. Once published, we can provide information how to execute it.)
 
